@@ -1,0 +1,86 @@
+.pricing-item {
+    border: 1px solid #eee;
+    padding: 40px 0;
+}
+
+.pricing-item:hover .pricing-item-permonth .month,
+.pricing-item:hover .pricing-item-permonth .dollar {
+    color: white;
+}
+
+.pricing-item:hover .pricing-item-text {
+    color: #6195ff;
+}
+
+.pricing-item-permonth {
+    width: 130px;
+    height: 130px;
+    padding: 20px 0;
+    border: 2px solid #6195ff;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+.pricing-item-permonth .dollar {
+    font-size: 50px;
+}
+
+.pricing-item-permonth .month {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pricing-list li {
+    line-height: 1.8;
+}
+
+.pricing-item-purchase {
+    border: none;
+    border: 1px solid #6195ff;
+    width: 120px;
+    background: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/*testimomial-section*/
+
+.testimomial {
+    background-image: url(../images/images/background/background3.webp);
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.testimomial-item {
+    width: 50%;
+    padding: 120px 0;
+    padding-right: 15px;
+}
+
+.testimomial-toplayer {
+    padding: 10px 0 40px 100px;
+}
+
+.testimomial-toplayer img {
+    top: 10px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.testimomial-toplayer-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.testimomial-toplayer-text {
+    margin: 10px 0 0 2px;
+}
+
+.testimomial-item-desc {
+    line-height: 1.3;
+    font-size: 17px;
+}

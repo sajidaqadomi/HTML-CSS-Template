@@ -1,0 +1,22 @@
+.footer {
+    background-color: black;
+    padding: 60px 0;
+}
+
+.footer-list {
+    margin: 20px 0;
+}
+
+.footer-list li a {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.footer-list li a i {
+    line-height: 40px;
+}
+
+.footer-desc {
+    font-size: 15px;
+}

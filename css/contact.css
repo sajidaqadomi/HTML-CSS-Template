@@ -1,0 +1,42 @@
+.container-60 {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 40px auto 0px;
+}
+
+.contact-form input,
+.contact-form-message {
+    padding: 12px 20px;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+.contact-form-name,
+.contact-form-email {
+    width: 49%;
+}
+
+.contact-form-message {
+    height: 50px;
+}
+
+.contact-form input:focus,
+.contact-form-message:focus {
+    border: 2px solid #6195ff;
+    background-color: #6d696969;
+}
+
+.contact-form button {
+    padding: 10px 35px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.contact-form button:hover {
+    background-color: rgba(97, 149, 255, .6);
+}

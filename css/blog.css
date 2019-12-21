@@ -1,0 +1,33 @@
+.blog-item {
+    text-align: left;
+    background-color: white;
+}
+
+.blog-item-img {
+    height: 40%;
+}
+
+.blog-item-img img {
+    height: 100%;
+}
+
+.blog-item-under {
+    padding: 20px;
+}
+
+.blog-item-list li {
+    margin-right: 5px;
+    color: black;
+}
+
+.blog-item-list li i {
+    margin-right: 5px;
+}
+
+.blog-item-titel {
+    font-weight: bold;
+}
+
+.blog-item-desc {
+    line-height: 1.5;
+}

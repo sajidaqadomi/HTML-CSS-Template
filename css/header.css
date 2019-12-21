@@ -1,0 +1,63 @@
+.hedear {
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    z-index: 3;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    vertical-align: middle;
+    width: 40%;
+}
+
+.hedear .container .nav {
+    width: 60%;
+    text-align: right;
+}
+
+.hedear .container .nav>li>a {
+    padding: 30px 10px;
+    font-size: 14px;
+}
+
+.hedear .container .nav>li>a:after {
+    content: " ";
+    /* border: 1px solid green;*/
+    height: 1px;
+    display: block;
+    background-color: #6195ff;
+    margin: 2px 0;
+    transition: width .5s;
+}
+
+.hedear .container .nav>li>a:after {
+    width: 0;
+}
+
+.hedear .container .nav>li>a.active:after {
+    width: 100%;
+}
+
+.hedear .container .nav>li>a:hover:after {
+    width: 100%;
+}
+
+.hedear .container .nav .dropdown .dropdown-menu {
+    width: 280%;
+    left: -50%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-menu a {
+    padding: 15px 0;
+}
+
+.hedear .container .nav .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}

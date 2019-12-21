@@ -1,0 +1,48 @@
+.team-item {
+    padding: 40px 20px;
+    z-index: 1;
+}
+
+.team-item-img {
+    width: 80%;
+    margin: auto;
+}
+
+.team-overlay {
+    /* background-color: #6195ff;*/
+    background-color: rgba(0, 0, 0, 0.7);
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.team-overlay a {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    background-color: rgba(97, 149, 255, .6);
+}
+
+.team-overlay a i {
+    line-height: 40px;
+}
+
+.team-item:hover .team-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-item-title {
+    margin: 20px 0;
+}
+
+.team-item:hover .team-item-title {
+    color: white;
+}
+
+.team-item:hover .team-item-text {
+    color: #6195ff;
+}

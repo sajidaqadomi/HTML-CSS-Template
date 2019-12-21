@@ -1,0 +1,93 @@
+/*off*/
+
+.offer-item {
+    padding: 15px 10px 15px 60px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+
+.offer-item:hover .offer-item-title {
+    color: white;
+}
+
+.offer-item-desc {
+    line-height: 1.6;
+}
+
+.offer-item i {
+    top: 15px;
+    left: 10px;
+}
+
+
+/*services*/
+
+.services {
+    background-color: whitesmoke;
+}
+
+.services .section-hedear {
+    text-align: left;
+}
+
+.services-item .section-hedear .line {
+    margin: 0 0 40px 0;
+}
+
+.services-item {
+    width: 50%;
+    padding-right: 20 px;
+}
+
+.services-item-desc {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.services-list li i {
+    border: 1px solid #6195ff;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.service-item-bollets li {
+    width: 10px;
+    height: 10px;
+    margin: 10px 5px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+}
+
+.service-item-bollets li.active {
+    background-color: #6195ff;
+}
+
+.service-item-bollets li:hover {
+    background-color: #6195ff;
+}
+
+
+/*number*/
+
+.number {
+    height: 300px;
+    background-image: url(../images//images/background/background2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* padding: 120px 0;*/
+}
+
+.number-item {
+    width: 25%;
+}
+
+.number .container {
+    padding: 120px 0;
+}
+
+.number-item-title {
+    font-weight: bold;
+    font-size: 36px;
+}

@@ -1,0 +1,36 @@
+.home {
+    height: 100vh;
+    background-image: url(../images/images/background/background1.webp);
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+
+.home .overlay .home-content .title {
+    font-size: 3.5rem;
+}
+
+.home .home-desc {
+    margin: 20px 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.home .btn {
+    min-width: 160px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.home .btn-get {
+    background-color: white;
+    margin-right: 10px;
+}

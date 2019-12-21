@@ -1,0 +1,154 @@
+/*
+ 1- common styles
+ 2- General styles
+ 3- Sections styles
+    3.0 header section
+    3.1 home section
+    3.2 about section
+    3.3 portfolio section
+    3.4 services section
+    3.5 Prices section
+    3.6 Team section
+    3.7 Blog section
+    3.8 Contact section
+*/
+
+
+/*1-common styles*/
+
+
+/*
+  - container
+  - overlay
+  - opacity hover
+  - section header
+  - section padding
+  - hover effect1 (left to right)
+  - hover effect2 (top to bottom)
+
+*/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.overlay {
+    position: absolute;
+    background-color: #00000099;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    height: 100%;
+}
+
+.hover-opacity {
+    transition: opaacity .5s;
+}
+
+.hover-opacity:hover {
+    opacity: .8;
+}
+
+.center {
+    text-align: center;
+}
+
+.ltr {
+    position: relative;
+}
+
+.utb {
+    position: relative;
+}
+
+.ltr:after,
+.utb:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.ltr:after {
+    height: 100%;
+    width: 0;
+    transition: width .5s;
+}
+
+.utb:after {
+    height: 0;
+    width: 100%;
+    transition: height .5s;
+}
+
+.ltr:hover::after {
+    width: 100%;
+}
+
+.utb:hover::after {
+    height: 100%;
+}
+
+.pd-y {
+    padding: 60px 0 120px 0;
+}
+
+
+/* 2-General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button {
+    font-family: 'Varela Round', sans-serif;
+    color: #868f9b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.section-hedear .section-title {
+    padding-top: 120px;
+}
+
+.section-hedear .line {
+    width: 40px;
+    height: 4px;
+    margin: 20px auto 70px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mg {
+    margin: 0 5%;
+}
